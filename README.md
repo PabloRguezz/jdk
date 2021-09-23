@@ -1,8 +1,8 @@
 # Instalación de JDK en el SO
 ## Indice
-- **[1. Instalación](#1.-instalación)**
-- **[2. Variables de entorno](#2.-variables-de-entorno)**
-### 1. Instalación
+- **[1. Instalación](#instalación)**
+- **[2. Variables de entorno](#variables-de-entorno)**
+### Instalación
 Para esta práctica necesitaremos una máquina con el sistema operativo ubuntu, pudiendo usarse también xubuntu. Necesitaremos usar únicamente el terminal de ubuntu, y para empezar usaremos el siguiente comando que nos servirá para actualizar el sistema: **“sudo apt-get update”**. 
 
 
@@ -24,7 +24,7 @@ Cuando se termine de instalar miraremos qué versión de java tenemos, necesitar
 
 <img src="img/6.png">
 
-### 2. Variables de entorno
+### Variables de entorno
 
 En el caso que, al usar el comando **“java -version”**, aparezca que no tienes la versión 8 tendremos que modificar lo siguiente. Tendremos que usar el siguiente comando para editar el siguiente directorio: **“sudo nano /etc/profile”**. Y aquí debemos poner lo siguiente:
 
